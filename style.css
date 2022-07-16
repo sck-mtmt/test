@@ -10,13 +10,13 @@ header{
 }
 
 main{
-  width:960px;
+  width:90%;
   margin:50px auto;
   display: flex;
 }
 
 .step-box{
-  width: 300px;
+  width:90%;
   margin-right:30px;
   padding:10px;
   position: relative;
@@ -66,6 +66,7 @@ footer{
 @media screen and (max-width: 768px){
 header{
   width:100%;
+  margin-bottom:50px;
 }
 main{
   width:100%;
@@ -81,5 +82,6 @@ main{
 
 footer{
   width:100%;
+  margin-top:50px;
 }
 }
